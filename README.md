@@ -31,9 +31,7 @@ I am continuously learning, experimenting, and building projects that reflect my
 ---
 
 ## 📊 Contribution Activity
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=parthgupta21&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=parthgupta21)
-
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=parthgupta21)
 
 
 ---
