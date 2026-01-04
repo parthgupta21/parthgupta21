@@ -1,16 +1,14 @@
-## Hi there 👋
+Hi, I am <Parth Gupta>.
 
-<!--
-**parthgupta21/parthgupta21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am passionate about learning and building things in software development. My interests include programming, problem solving, and exploring new technologies. I enjoy working on projects that help me improve my skills and understand how real systems are built.
 
-Here are some ideas to get you started:
+My current tech stack includes:
+• JavaScript  
+• TypeScript  
+• Node.js  
+• Next.js  
+• Tailwind CSS  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+On this GitHub profile you will find my practice projects, experiments, and things I am currently learning. I am always trying to get better and I am open to collaboration, feedback, and new ideas.
+
+Thank you for visiting my profile.
