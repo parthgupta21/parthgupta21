@@ -1,4 +1,4 @@
-Hi, I am <Parth Gupta>.
+Hi, I am Parth Gupta.
 
 I am passionate about learning and building things in software development. My interests include programming, problem solving, and exploring new technologies. I enjoy working on projects that help me improve my skills and understand how real systems are built.
 
