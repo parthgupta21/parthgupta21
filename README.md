@@ -16,6 +16,16 @@
 
 I'm a software engineer who mostly works on the backend: HTTP APIs, gateways, background workers, and the queues between them. I like the problems that show up once a system is real, such as a downstream service that is slow, a request that arrives twice, or a job that dies halfway through. Most of what I build here is about handling those cases properly.
 
+Since June 2025 I've been a Software Engineer at **TransBnk Solutions**, working on banking and payments infrastructure:
+
+- **Vendor orchestration for KYC and credit-bureau APIs** that keeps requests succeeding through vendor outages: four routing strategies, per-vendor circuit breakers kept in sync across Kubernetes pods over Redis pub/sub, and quota-aware rate limiting.
+- **Payment platform integrations:** added a ninth bank integration and a card rail, so merchants collect through UPI, QR, intent and cards from one API, with HMAC-signed requests and a cron that recovers missed callbacks.
+- **Auth hardening:** refresh-token rotation with theft detection that cut the stolen-credential window from 60 to 15 minutes, rolled out with backward-compatible migrations so old and new pods could run side by side during deploys.
+- **Fund-utilization reporting** for government schemes, built on exact paise arithmetic from bank statements, and a hardened consent-OTP service.
+- **Release path:** Docker, Jenkins CI and Argo CD GitOps on AWS EKS.
+
+At work and in my side projects, I care about the same few things:
+
 - **Reliability first.** Persist before processing, retry with backoff, make replays idempotent, and sweep up the jobs that slip through.
 - **Security as part of the design.** JWT auth, role-based access, rate limits, audit logs, SSRF guards on outbound calls.
 - **Systems you can operate.** Structured logs, Prometheus metrics, health checks, Docker images, and CI that tests against real MySQL and Redis.
@@ -109,6 +119,7 @@ A text analysis API that returns sentiment and topics using Google's Gemini mode
 <td>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Java-B07219?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
 <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL"/>
 </td>
@@ -117,6 +128,7 @@ A text analysis API that returns sentiment and topics using Google's Gemini mode
 <td><b>Backend</b></td>
 <td>
 <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot"/>
 <img src="https://img.shields.io/badge/Koa-33333D?style=flat-square&logo=koa&logoColor=white" alt="Koa"/>
 <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/>
 <img src="https://img.shields.io/badge/BullMQ-E4405F?style=flat-square" alt="BullMQ"/>
@@ -148,6 +160,10 @@ A text analysis API that returns sentiment and topics using Google's Gemini mode
 <td><b>Ops</b></td>
 <td>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+<img src="https://img.shields.io/badge/AWS_EKS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS EKS"/>
+<img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins"/>
+<img src="https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="Argo CD"/>
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
 <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx"/>
 <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus"/>
